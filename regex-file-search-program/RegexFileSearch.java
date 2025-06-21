@@ -32,13 +32,7 @@ public class RegexFileSearch {
         }
         scanner.close();
     }
-
-    /**
-     * Recursively searches through the directory for files matching the regex pattern.
-     *
-     * @param dir     the directory to search
-     * @param pattern the regex pattern to match filenames
-     */
+ 
     private static void searchFiles(File dir, Pattern pattern) {
         if (dir == null || !dir.exists()) return;
 
