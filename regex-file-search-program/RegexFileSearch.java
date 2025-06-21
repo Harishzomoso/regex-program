@@ -2,31 +2,7 @@ import java.io.File;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
-
-/**
- * RegexFileSearch
- *
- * This Java program searches the user's home directory for files
- * that match a user-provided regular expression. It accepts input
- * repeatedly until the user types "exit".
- *
- * Features:
- * - Recursively scans all files in the user's home directory
- * - Matches filenames using regex
- * - Handles invalid regex patterns gracefully
- * - Prints the full absolute path of all matching files
- *
- * Usage:
- * Run the program and enter a regular expression.
- * Type "exit" to quit the program.
- *
- * Example:
- * Enter regex: .*\\.txt
- * /home/user/Documents/notes.txt
- * /home/user/Desktop/logs.txt
- *
- * Author: Harish R
- */
+ 
 
 public class RegexFileSearch {
 
